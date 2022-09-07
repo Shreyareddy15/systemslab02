@@ -22,7 +22,7 @@ int main(){
     }
     printf("\n");
 
-	for (int i=1; i<N; i++){
+	for (i=1; i<N; i++){
 	    currLoc = i;
 	    while (currLoc > 0 && arr[currLoc-1] > arr[currLoc]){
 		temp = arr[currLoc];
